@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.wrapped{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head{
+    margin-bottom: 20px;
+    color:#44c489;
+}
+
+.city-param{
+    color: #432c39;
+    margin-top: 20px;
+}
+
+.cityname,.btn{
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    color: #28a9ae;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.btn:hover{
+    color: white;
+    background-color:#28a2b7;
+}
+
+.displaycityname{
+    margin-bottom: 10px;
+}
+
+.temp{
+    margin-bottom: 10px;
+}
+
+.fahrenheit{
+    margin-bottom: 10px;
+}
